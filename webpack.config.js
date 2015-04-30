@@ -7,9 +7,14 @@ module.exports = {
 	loaders: [
 		{
 			test: /\.js(x)?$/,
+			exclude: /node_modules/,
 			loader: 'babel'
 		}
 	]
+  },
+
+  resolve: {
+	extensions: ['', '.js', '.jsx']
   },
 
   output: {

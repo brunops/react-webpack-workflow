@@ -1,5 +1,5 @@
-console.log('Hello world');
+var React = require('react');
 
-(() => {
-	window.alert('We now have es6!');
-}());
+var AppComponent = require('./AppComponent');
+
+React.render(<AppComponent />, document.getElementById('content'));
