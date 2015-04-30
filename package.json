@@ -1,0 +1,18 @@
+{
+  "name": "react-webpack-workflow",
+  "version": "0.0.1",
+  "description": "Quick workflow with webpack and React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "livereload",
+    "workflow",
+    "es6"
+  ],
+  "author": "brunops",
+  "license": "MIT"
+}
